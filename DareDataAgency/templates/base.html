@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- For Window Tab Color -->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#2c2c2c">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#2c2c2c">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#2c2c2c">
+
+		<title>{% block title %}{% endblock title %} | DataGrill</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="{% static 'images/fav-icon/icon.png' %}">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}">
+
+			
+	</head>
+    
+    
+    {% block body %}
+    
+    {% endblock body %}
+    {% include 'includes/footer.html' %}
