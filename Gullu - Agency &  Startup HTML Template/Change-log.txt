@@ -1,0 +1,16 @@
+Version 1.1 (13/04/2018)
+***
+# Video banner Home version added
+# Service details page added
+# Blog list with sidebar page added
+# Blog details with sidebar page added
+# Video portfolio page added
+# Preloader Changes
+# Minor issue fix on secondary menu
+# Browser Tab Window/Address bar color option added
+**
+
+Version 1.0 (12/10/2017)
+**
+Initial Release
+**
