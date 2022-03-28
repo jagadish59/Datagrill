@@ -3,9 +3,8 @@ from django.contrib import messages, auth
 from django.http.request import QueryDict
 from accounts.models import Account
 from django.contrib.auth.decorators import login_required
-from django import http
+from django import http 
 from django.http.response import HttpResponse
-import requests
 from django.shortcuts import redirect, render
 
 from .forms import RegisterForm
